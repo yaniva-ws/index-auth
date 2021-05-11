@@ -9,7 +9,7 @@ pipeline {
                 cleanWs()
                 git branch: 'master',
                         credentialsId: 'whitesource-github-user',
-                        url: 'git@github.com:aniva-ws/index-auth.git'
+                        url: 'git@github.com:yaniva-ws/index-auth.git'
             }
         }
         stage('Build') {
