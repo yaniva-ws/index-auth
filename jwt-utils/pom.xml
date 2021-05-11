@@ -20,6 +20,17 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>internal-nexus-release</id>
+            <url>http://nexus-internal.whitesourcesoftware.com:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>internal-nexus-snapshots</id>
+            <url>http://nexus-internal.whitesourcesoftware.com:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
 
         <dependency>
