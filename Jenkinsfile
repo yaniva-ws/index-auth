@@ -7,7 +7,7 @@ pipeline {
         stage ('clean and clone') {
             steps {
                 cleanWs()
-                git branch: 'master',
+                git branch: 'main',
                         credentialsId: 'whitesource-github-user',
                         url: 'git@github.com:yaniva-ws/index-auth.git'
             }
