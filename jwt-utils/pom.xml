@@ -20,6 +20,15 @@
         </plugins>
     </build>
 
+    <url>https://github.com/yaniva-ws/index-auth</url>
+
+
+    <scm>
+        <connection>scm:git:git@github.com:yaniva-ws/index-auth.git</connection>
+        <developerConnection>scm:git:git@github.com:yaniva-ws/index-auth.git</developerConnection>
+        <url>git@github.com:yaniva-ws/index-auth.git</url>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>internal-nexus-release</id>
